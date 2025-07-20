@@ -87,7 +87,7 @@ Receipt Processor is a full-stack web application that transforms physical recei
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/receipt-processor.git
+git clone https://github.com/Dushmanta-15/receipt-processor
 cd receipt-processor
 
 # 2. Backend Setup
@@ -457,32 +457,6 @@ CREATE INDEX idx_receipt_category_date ON receipts_receipt(category, transaction
 
 ## 🗺️ User Journey
 
-### Primary User Flow
-
-```mermaid
-journey
-    title Receipt Processing Journey
-    section Discovery
-      Visit Application: 5: User
-      View Dashboard: 4: User
-      Understand Features: 5: User
-    section Upload
-      Navigate to Upload: 5: User
-      Select Receipt File: 4: User
-      Drag & Drop: 5: User
-      Watch Processing: 4: User
-    section Review
-      See Extracted Data: 5: User
-      Verify Accuracy: 4: User
-      Edit if Needed: 3: User
-      Save Receipt: 5: User
-    section Analyze
-      View Dashboard Updates: 5: User
-      Explore Analytics: 5: User
-      Filter by Category: 4: User
-      Export Data: 4: User
-```
-
 ### Detailed User Scenarios
 
 #### Scenario 1: First-Time User
@@ -789,23 +763,11 @@ CREATE INDEX idx_receipt_created_at ON receipts_receipt(created_at);
 - [ ] **Receipt Generation**: Create digital receipts for cash transactions
 - [ ] **Voice Interface**: Voice-powered receipt entry and queries
 
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Quick Contribution Guide
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ### Development Setup for Contributors
 ```bash
 # Setup development environment
-git clone https://github.com/yourusername/receipt-processor.git
+git clone https://github.com/Dushmanta-15/receipt-processor
 cd receipt-processor
 
 # Install pre-commit hooks
@@ -837,10 +799,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [Wiki Pages](https://github.com/yourusername/receipt-processor/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/receipt-processor/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/receipt-processor/discussions)
-- **Email**: support@receiptprocessor.com
+- **Email**: kalitadushmanta@gmail.com
 
 ---
 
